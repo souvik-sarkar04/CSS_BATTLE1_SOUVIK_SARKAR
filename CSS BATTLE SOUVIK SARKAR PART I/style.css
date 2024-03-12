@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height:100vh;
+    width:100vw;
+}
+
+.container {
+    height:100%; 
+    width:100%;
+    background-image: url(MNNIT.png);
+    background-attachment: fixed;
+  
+    background-position: center;
+    
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card 
+{
+    height: 80%;
+    width:90%;
+    border: 1px solid black;
+    background-color: rgb(9, 9, 126);
+    color:white;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left:4rem;
+    margin-right:4rem;
+    border-radius: 8px;
+    
+}
+
+.components {
+    display: flex;
+    position: relative;
+}
+.header {
+    width:100%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+    font-weight: 1000;
+}
+
+.div {
+    font-size:large;
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    margin-left: 4em;
+}
+.left-header {
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+.flex1 {
+    display: flex;
+    gap:0.2em;
+    height:30px;
+    width:60px;
+    margin-bottom: 1em;
+}
+.flex2 {
+    display: flex;
+    gap:0.2em;
+    height:30px;
+    width:60px;
+    margin-bottom: 1em;
+}
+.flex3 {
+    display: flex;
+    flex-direction: column;
+    gap:0.2em;
+}
+    
+    .message {
+        height:200px;
+        width:340px;
+        margin-bottom: 1em;
+}
+
+.submit {
+    height:40px;
+    width:70px;
+    margin-bottom: 1em;
+    background-color: rgb(228, 77, 228);
+    color: white;
+}
+
+.pink-text{
+    
+    color:rgb(228, 77, 228);
+}
+
+.right-section {
+    width:25%;
+    position: absolute;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+}
+
+.right-text {
+    font-size: 19px;
+}
+
+.rtc {
+    margin-top: 0.5em;
+}
+.rtc2 {
+    margin-top: 2em;
+}
+
+.right-footer {
+    margin-top : 3em;
+}
+
+.bgc {
+    background-color: rgb(77, 77, 199);
+    
+}
+
+.right-icons {
+    display: flex;
+    gap:1em;
+}
+.img {
+    height:40px;
+    width:40px;
+   
+}
