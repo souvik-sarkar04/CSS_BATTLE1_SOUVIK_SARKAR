@@ -9,6 +9,9 @@
     width:100vw;
 }
 
+.input {
+    border-radius: 8px;
+}
 .container {
     height:100%; 
     width:100%;
@@ -64,6 +67,9 @@
     display: flex;
     flex-direction: column;
     gap:1em;
+}
+.left-sub-header {
+    font-size: 30px;
 }
 .flex1 {
     display: flex;
